@@ -19,3 +19,5 @@ You can run this to get the jenkins pass if you want.
 
 take away:
 imo. Ansible > Python for config management.
+
+![jenkins_logo](https://user-images.githubusercontent.com/8779526/211195829-cd408dc7-7436-4eb6-b298-b40166564144.png)
