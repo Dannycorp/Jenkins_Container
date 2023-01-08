@@ -13,13 +13,12 @@ docker run hello-world - check if you can run docker commands without sudo.
 
 Method:
 
-First install Docker - 
 
-Pull the container - this will output the temp pass if you're watching the logs
+install_docker.py   - First install Docker 
 
-You can run this to get the jenkins pass if you want.
+pullJenkinsContainer.py - this will output the temp pass if you're watching the logs
 
-take away:
-imo. Ansible > Python for config management.
+get_jenkins_password.py - You can run this to get the Jenkins initial password.
+
 
 ![jenkins_logo](https://user-images.githubusercontent.com/8779526/211195829-cd408dc7-7436-4eb6-b298-b40166564144.png)
