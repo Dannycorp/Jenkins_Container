@@ -14,7 +14,9 @@ docker run hello-world - check if you can run docker commands without sudo.
 Method:
 
 First install Docker - 
+
 Pull the container - this will output the temp pass if you're watching the logs
+
 You can run this to get the jenkins pass if you want.
 
 take away:
