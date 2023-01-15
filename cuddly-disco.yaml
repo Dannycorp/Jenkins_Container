@@ -1,0 +1,10 @@
+- name: Run "docker-compose up -d web_dev"
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Run "docker-compose up -d web_dev"
+      docker_compose:
+        project_src: /home/dan/code/cuddly-disco
+        state: up
+        services:
+          - web_dev
