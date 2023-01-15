@@ -1,0 +1,20 @@
+version: '3'
+services:
+  jenkins:
+    build: .
+    ports:
+      - "8083:8080"
+    volumes:
+      - jenkins_data:/var/jenkins_home
+
+volumes:
+  jenkins_data:
+
+# defines a single jenkins service
+# docker-compose up -d (In detached mode)
+# docker-compose stop
+# docker-compose start
+# docker-compose restart
+
+
+# http://localhost:8080  
