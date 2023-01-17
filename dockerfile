@@ -4,8 +4,9 @@ EXPOSE 8083 50000
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=true"
 
 USER root
-RUN apt-get update && apt-get install -y apt-utils sudo tini
+RUN apt-get update && apt-get install -y apt-utils sudo 
 RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
+
 
 USER jenkins
 
